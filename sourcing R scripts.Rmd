@@ -1,0 +1,10 @@
+---
+title: "Sourcing R Scripts"
+output: html_notebook
+---
+
+```{r}
+source("simple dataframe.R")
+```
+
+The source() function reads in code from another R script into the notebook. Running this code creates the objects we created in the R script, including the months and order variables, as well as the year dataframe combining the two variables. This is useful for reading in data cleaned in another script, for example, to keep the notebook clean and save time rendering the dataset.
